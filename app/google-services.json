@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "397575116069",
+    "firebase_url": "https://issueexchange.firebaseio.com",
+    "project_id": "issueexchange",
+    "storage_bucket": "issueexchange.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397575116069:android:b3f9d2ed42f8c985b6f6cc",
+        "android_client_info": {
+          "package_name": "com.andsomore.issueexchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397575116069-acdlb6gljkgs8eabrr8q7snffudiuphn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8DMVMUGsq3J0nMbWJhs12-Bidemzx2l8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397575116069-acdlb6gljkgs8eabrr8q7snffudiuphn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
