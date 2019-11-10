@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "397575116069-4gk600dionrskso0e7leqnrk4qjirtu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andsomore.issueexchange",
+            "certificate_hash": "c85ab5f09d7890586765d8ac5ffc1d182e052e5a"
+          }
+        },
+        {
           "client_id": "397575116069-acdlb6gljkgs8eabrr8q7snffudiuphn.apps.googleusercontent.com",
           "client_type": 3
         }
