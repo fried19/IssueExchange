@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/welcomeView"
+    android:background="@color/colorBackground"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/ivExchange"
+        android:layout_width="99dp"
+        android:layout_height="88dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_communication_white" />
+    <TextView
+        android:id="@+id/tvExchange"
+        android:layout_below="@+id/ivExchange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Issue Exchange"
+        android:textSize="16sp"
+        android:textColor="@color/colorSplashText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ProgressBar
+        android:id="@+id/pgBar"
+        android:layout_width="match_parent"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-4dp"
+        android:foregroundGravity="bottom"
+        android:indeterminate="true"
+        android:padding="0dp"
+        android:theme="@style/ProgressBarStyle"
+        />
+    <RelativeLayout
+        android:id="@+id/afterAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="130dp"
+        android:orientation='vertical'
+        android:visibility="gone">
+
+<TextView
+    android:id="@+id/tvBienvenue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Soyez le bienvenue"
+    android:textColor="@color/colorBackground"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    />
+        <TextView
+            android:id="@+id/tvPartage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Partageons ensemble"
+            android:layout_below="@id/tvBienvenue"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            />
+
+        <LinearLayout
+            android:id="@+id/linInfos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_below="@id/tvPartage"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/edEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorTextView"
+                android:textColorHint="@color/colorAccent"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:textSize="15sp"
+                />
+            <EditText
+                android:id="@+id/edPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/colorTextView"
+                android:textColorHint="@color/colorAccent"
+                android:imeOptions="actionDone"
+                android:maxLines="1"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btLogin"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="450dp"
+            android:background="@color/bgWelcome"
+            android:text="CONNEXION"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

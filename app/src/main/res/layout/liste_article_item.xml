@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorLayoutBack">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/linTitre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvTitre"
+                android:textColor="@color/colorTextView1"
+                android:layout_width="match_parent"
+                android:text="Texte de ce jour"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linPosteur"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/linTitre"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvLibPosteur"
+                android:textColor="@color/colorTextView1"
+                android:layout_width="wrap_content"
+                android:text="- Posté par "
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvNomPosteur"
+                android:textColor="@color/colorTextView1"
+                android:layout_width="wrap_content"
+                android:text="Siegfried"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvDatePost"
+                android:textColor="@color/colorTextView1"
+                android:layout_width="wrap_content"
+                android:text=" Siegfried"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/linLangage"
+    android:layout_below="@+id/linPosteur"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginTop="5dp">
+<TextView
+    android:layout_marginTop="5dp"
+    android:id="@+id/tvLangage"
+    android:layout_width="50dp"
+    android:layout_height="20dp"
+    android:background="@drawable/textview_rectangle"
+    android:text="Mobile"
+    />
+    <TextView
+        android:id="@+id/tvicAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="-8dp"
+        android:layout_marginStart="300dp"
+        android:drawableLeft="@drawable/icAnswer"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvnbAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="2dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:text="1"
+        />
+</LinearLayout>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
